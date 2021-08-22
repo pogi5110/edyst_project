@@ -1,0 +1,280 @@
+.navbar-list{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+.navbar{
+    display:block;
+    padding: 25px;
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    float: right;
+}
+.edyst-logo{
+    float: left;
+}
+.nav-container{
+    background-color: white;
+}
+.apply-button{
+    color:white;
+    background-color: orange;
+}
+.edyst-logo{
+    padding:0;
+}
+
+.HomePage{
+    padding-top:50px;
+    background-image: url('Images/bg-home.jpeg');
+    color:white;
+    background-size: 100%;
+    padding-left: 100px;
+    padding-bottom: 0px;
+}
+.main-heading{
+    font-size:90px;
+}
+.sub-heading{
+    font-size:33px;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, .7);
+    background-blend-mode: multiply;
+    padding-bottom: 0px;
+}
+.blue-button{
+    background-color: #4992ca;
+    color:white;
+    width:200px;
+    border:none;
+}
+.register-button{
+    background-color: transparent;
+    color: white;
+    width:200px;
+}
+.learn-more{
+    border-radius:15px;
+    height:50px;
+    width:400px;
+}
+
+.column-container{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding:25px;
+}
+.pocket-monsters{
+    background-color: #4992ca;
+    color:white;
+    text-align: center;
+    font-family: Avenir-Next,Roboto,sans-serif;
+    padding-top: 0px;
+}
+
+.statistics{
+    font-family: Avenir-Next,Roboto,sans-serif;
+    text-align: center;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+.PokeOftheYear{
+    font-weight: 100;
+    text-align: center;
+    padding-right: 120px;
+    padding-left: 120px;
+    font-family: Avenir-Next,Roboto,sans-serif;
+}
+.poke-circle{
+    border-radius:50%;
+    width:250px;
+    height:250px;
+}
+.poke-logo{
+    width:200px;
+    height:75px;
+}
+
+.QnA, .pokemon-trainers, .designers, .know-more-section{
+    background-color: #4992ca;
+    color:white;
+    padding-right: 120px;
+    padding-left: 120px;
+    font-family: Avenir-Next,Roboto,sans-serif;
+}
+.circle-list{
+    list-style-type: circle;
+}
+.qnalist{
+    line-height: 25px;
+}
+
+.table-section{
+    text-align: center;
+    padding-right: 200px;
+    padding-left: 200px;
+    font-family: Avenir-Next,Roboto,sans-serif;
+}
+.container{
+    display: flex;
+}
+.strength-table{
+    color:#8a8a8a;
+    border: 1px solid #8a8a8a;
+    border-collapse: collapse;
+    padding:15px;
+}
+.flex1{
+    flex:1 1 0;
+}
+.flex2{
+    flex:2 1 0;
+}
+.battle-text{
+    line-height: 25px;
+    color:#8a8a8a;
+    text-align: left;
+}
+.battle-texthead{
+    text-align: left;
+}
+.buynow{
+    background-color: #4992ca;
+    color: white;
+    width:200px;
+    border:none;
+    height:30px;
+}
+
+.know-more{
+    text-align: center;
+    background-color: #3c3c3c;
+    color: white;
+}
+.click-here{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    width:200px;
+    height:40px;
+}
+
+.pokemon-card{
+    font-family: Avenir-Next,Roboto,sans-serif;
+    text-align: center;
+}
+.table-card{
+    border: 1px solid #8a8a8a;
+    border-collapse: collapse;
+}
+.top{
+    border-top:15px solid #4992ca;
+}
+.table-config{
+    width:250px;
+    height:400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pokemon-trainers{
+    text-align: center;
+}
+.trainer-table{
+    vertical-align: top;
+    padding:25px;
+    font-weight: 100;
+}
+
+.card-section{
+    font-family: Avenir-Next,Roboto,sans-serif;
+    padding:25px;
+}
+.flex-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.generation-table{
+    border: 1px solid #8a8a8a;
+    border-collapse: collapse;
+    height:450px;
+    width:400px;
+}
+.generation-td{
+    border: 1px solid #8a8a8a;
+    vertical-align: top;
+}
+.blue-top{
+    border-top:15px solid #4992ca;
+    height:150px;
+}
+
+.email-input{
+    height:34px;
+    width: 300px;
+}
+
+.poke-games{
+    text-align: center;
+    padding:25px;
+}
+.game-photo{
+    width:200px;
+    height:200px;
+}
+.game-table{ 
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height:450px;
+}
+
+.designers{
+    text-align: center;
+}
+.designer-table{
+    margin-right: auto;
+    margin-left: auto;
+    padding:40px;
+}
+
+.logos{
+    text-align: center;
+}
+.flex3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.padding-space{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.know-more-section{
+    text-align: center;
+}
+
+.footer{
+    background-color: #111111;
+    color: white;
+    text-align: center;
+}
+.footer-list{
+    text-decoration: none;
+    list-style: none;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+}
+.footer-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
